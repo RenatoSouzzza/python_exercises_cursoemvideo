@@ -1,0 +1,5 @@
+din = float(input('Quanto o valor disponível R$ '))
+print('O valor informado R$ {:.2f} corresponde a US$ {:.2f}'.format(din, din / 4.86))
+print('Em Euros: €{:.2f}'.format(din / 5.28))
+print('Em Ienes: ¥{:.2f}'.format(din * 29.78))
+print('Em Pesos Argentinos: AR${:.2f}'.format(din * 53.51))
